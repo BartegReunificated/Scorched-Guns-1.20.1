@@ -90,19 +90,13 @@ public class GunModifiers
         @Override
         public double modifyProjectileSpeed(double speed)
         {
-            return speed * 1.2;
+            return speed * 1.25;
         }
 
         @Override
         public float modifyProjectileSpread(float spread)
         {
-            return spread * 0.8F;
-        }
-
-        @Override
-        public float recoilModifier()
-        {
-            return 1.25F;
+            return spread * 0.5F;
         }
 
         @Override
@@ -110,6 +104,9 @@ public class GunModifiers
         {
             return speed * 0.9;
         }
+
+        @Override
+        public float modifyProjectileDamage(float damage) { return damage * 1.1F; }
     };
     public static final IGunModifier SLOW_ADS = new IGunModifier()
     {
@@ -231,13 +228,21 @@ public class GunModifiers
         @Override
         public float recoilModifier()
         {
-            return 0.8F;
+            return 0.5F;
         }
+
+        @Override
+        public float modifyProjectileSpread(float spread)
+        {
+            return spread * 0.5F;
+        }
+
         @Override
         public float kickModifier()
         {
-            return 0.8F;
+            return 0.5F;
         }
+
         @Override
         public double modifyAimDownSightSpeed(double speed)
         {
@@ -274,7 +279,13 @@ public class GunModifiers
     public static final IGunModifier WEIGHTED_STOCK_MODIFIER = new IGunModifier() {
         @Override
         public float recoilModifier() {
-            return 0.75F;
+            return 0.25F;
+        }
+
+        @Override
+        public float modifyProjectileSpread(float spread)
+        {
+            return spread * 0.25F;
         }
 
         @Override
@@ -284,7 +295,7 @@ public class GunModifiers
 
         @Override
         public float kickModifier() {
-            return 0.9F;
+            return 0.25F;
         }
     };
 
@@ -324,17 +335,17 @@ public class GunModifiers
 
         @Override
         public float modifyProjectileSpread(float spread) {
-            return spread * 0.85F;
+            return spread * 0.5F;
         }
 
         @Override
         public float recoilModifier(ItemStack weapon) {
-            return isCarbineCandidate(weapon) ? 0.9F : 1.15F;
+            return isCarbineCandidate(weapon) ? 0.9F : 1.1F;
         }
 
         @Override
         public float kickModifier(ItemStack weapon) {
-            return isCarbineCandidate(weapon) ? 0.95F : 1.2F;
+            return isCarbineCandidate(weapon) ? 0.9F : 1.1F;
         }
 
         @Override
@@ -348,14 +359,10 @@ public class GunModifiers
     };
 
         public static final IGunModifier SILENCER_MODIFIER = new IGunModifier() {
-        @Override
-        public float modifyProjectileDamage(float damage) {
-            return damage * 0.9F;
-        }
 
         @Override
         public double modifyProjectileSpeed(double speed) {
-            return speed * 0.9;
+            return speed * 1.05;
         }
 
         @Override
@@ -366,8 +373,11 @@ public class GunModifiers
 
     public static final IGunModifier ADVANCED_SILENCER_MODIFIER = new IGunModifier() {
         @Override
+        public float modifyProjectileDamage(float damage) { return damage * 1.05F; }
+
+        @Override
         public double modifyProjectileSpeed(double speed) {
-            return speed * 0.93;
+            return speed * 1.1;
         }
 
         @Override

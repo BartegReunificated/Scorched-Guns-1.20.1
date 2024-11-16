@@ -36,9 +36,9 @@
     "damage": 16.0,
     "item": "scguns:shotgun_shell",
     "casingType": "scguns:small_copper_casing",
-    "life": 20,
+    "life": 25,
     "size": 0.05,
-    "speed": 4.0,
+    "speed": 10.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

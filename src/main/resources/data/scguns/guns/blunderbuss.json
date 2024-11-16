@@ -46,7 +46,7 @@
     "item": "scguns:grapeshot",
     "life": 30,
     "size": 1.0,
-    "speed": 5.0,
+    "speed": 25.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

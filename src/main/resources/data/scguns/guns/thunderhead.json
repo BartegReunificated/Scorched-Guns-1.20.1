@@ -25,14 +25,14 @@
   },
   "projectile": {
     "advantage": "scguns:heavy",
-    "damage": 21.0,
+    "damage": 22.0,
     "gravity": false,
     "item": "scguns:krahg_round",
     "ejectsCasing": true,
     "casingType": "scguns:large_brass_casing",
-    "life": 60,
+    "life": 100,
     "size": 0.1,
-    "speed": 5.0,
+    "speed": 25.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

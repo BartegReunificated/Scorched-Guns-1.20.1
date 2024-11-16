@@ -15,7 +15,7 @@
     "rate": 15,
     "recoilAngle": 4.7,
     "recoilKick": 2.22,
-    "spread": 1.0,
+    "spread": 0.0,
     "meleeDamage": 2.5,
     "meleeCooldownTicks": 20,
     "hotBarrelRate": 32
@@ -49,19 +49,19 @@
   },
   "projectile": {
     "advantage": "scguns:heavy",
-    "damage": 21.0,
+    "damage": 23.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:krahg_round",
     "casingType": "scguns:large_brass_casing",
-    "life": 75,
+    "life": 100,
     "size": 0.1,
-    "speed": 15.0,
+    "speed": 100.0,
     "trailLengthMultiplier": 4.0
   },
   "reloads": {
     "emptyMagTimer": 20,
-    "maxAmmo": 6,
+    "maxAmmo": 15,
     "reloadItem": "scguns:krahg_round",
     "reloadTimer": 40,
     "reloadType": "scguns:mag_fed"

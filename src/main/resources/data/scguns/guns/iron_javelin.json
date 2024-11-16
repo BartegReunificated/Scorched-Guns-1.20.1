@@ -15,7 +15,7 @@
     "rate": 11,
     "recoilAngle": 3.7,
     "recoilKick": 1.8,
-    "spread": 1.0,
+    "spread": 0.0,
     "meleeDamage": 2.5,
     "meleeCooldownTicks": 20,
     "hotBarrelRate": 26
@@ -49,19 +49,19 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 12.5,
+    "damage": 13.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:advanced_round",
     "casingType": "scguns:medium_brass_casing",
-    "life": 50,
+    "life": 100,
     "size": 0.1,
-    "speed": 15.0,
+    "speed": 100.0,
     "trailLengthMultiplier": 4.0
   },
   "reloads": {
     "emptyMagTimer": 20,
-    "maxAmmo": 9,
+    "maxAmmo": 20,
     "reloadItem": "scguns:advanced_round",
     "reloadTimer": 40,
     "reloadType": "scguns:mag_fed"

@@ -42,14 +42,14 @@
   },
   "projectile": {
     "advantage": "scguns:illager",
-    "damage": 6.5,
+    "damage": 7.0,
     "ejectsCasing": false,
     "gravity": false,
     "item": "scguns:compact_copper_round",
     "casingType": "scguns:small_copper_casing",
-    "life": 35,
+    "life": 40,
     "size": 1.0,
-    "speed": 5.0,
+    "speed": 10.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

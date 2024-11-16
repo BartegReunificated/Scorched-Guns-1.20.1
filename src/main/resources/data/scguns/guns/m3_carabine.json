@@ -54,9 +54,9 @@
     "gravity": false,
     "item": "scguns:advanced_round",
     "casingType": "scguns:medium_brass_casing",
-    "life": 45,
+    "life": 90,
     "size": 0.05,
-    "speed": 9.5,
+    "speed": 90.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

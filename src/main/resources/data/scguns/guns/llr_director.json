@@ -50,14 +50,14 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 10.0,
+    "damage": 16.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:standard_copper_round",
     "casingType": "scguns:medium_copper_casing",
-    "life": 50,
+    "life": 100,
     "size": 0.05,
-    "speed": 10.0,
+    "speed": 100.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

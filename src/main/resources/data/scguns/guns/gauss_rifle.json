@@ -16,7 +16,7 @@
     "rate": 6,
     "recoilAngle": 3.5,
     "recoilKick": 1.0,
-    "spread": 0.1,
+    "spread": 0.0,
     "meleeDamage": 3.5,
     "meleeCooldownTicks": 20,
     "hotBarrelRate": 55
@@ -47,14 +47,14 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 27.0,
+    "damage": 30.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:energy_cell",
     "casingType": "scguns:empty_cell",
     "life": 100,
     "size": 1.0,
-    "speed": 9.0,
+    "speed": 100.0,
     "trailLengthMultiplier": 0.2
   },
   "reloads": {

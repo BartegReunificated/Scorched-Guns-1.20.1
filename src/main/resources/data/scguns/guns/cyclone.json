@@ -30,7 +30,7 @@
     "item": "scguns:microjet",
     "life": 50,
     "size": 1.0,
-    "speed": 1.5,
+    "speed": 2.5,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

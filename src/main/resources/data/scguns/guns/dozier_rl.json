@@ -43,7 +43,7 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 18.0,
+    "damage": 36.0,
     "ejectsCasing": false,
     "gravity": false,
     "item": "scguns:rocket",

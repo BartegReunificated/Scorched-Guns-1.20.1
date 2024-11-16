@@ -48,9 +48,9 @@
     "gravity": false,
     "item": "scguns:ramrod_round",
     "casingType": "scguns:small_iron_casing",
-    "life": 70,
+    "life": 100,
     "size": 0.1,
-    "speed": 8.0,
+    "speed": 50.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

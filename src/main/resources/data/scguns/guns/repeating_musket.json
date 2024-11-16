@@ -42,13 +42,13 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 6.5,
+    "damage": 7.0,
     "ejectsCasing": false,
     "gravity": false,
     "item": "scguns:powder_and_ball",
     "life": 30,
     "size": 1.0,
-    "speed": 5.0,
+    "speed": 25.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

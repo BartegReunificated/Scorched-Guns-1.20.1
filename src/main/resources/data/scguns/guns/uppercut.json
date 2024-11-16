@@ -46,9 +46,9 @@
     "item": "scguns:beowulf_round",
     "casingType": "scguns:small_diamond_steel_casing",
     "ejectsCasing": true,
-    "life": 60,
+    "life": 100,
     "size": 0.1,
-    "speed": 5.5,
+    "speed": 25.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

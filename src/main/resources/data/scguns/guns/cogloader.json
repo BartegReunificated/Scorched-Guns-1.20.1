@@ -47,14 +47,14 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 8.5,
+    "damage": 10.0,
     "ejectsCasing": true,
     "gravity": false,
     "item": "scguns:advanced_round",
     "casingType": "scguns:medium_brass_casing",
-    "life": 50,
+    "life": 100,
     "size": 0.1,
-    "speed": 6.5,
+    "speed": 100.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

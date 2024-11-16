@@ -43,13 +43,13 @@
   },
   "projectile": {
     "advantage": "scguns:none",
-    "damage": 12.0,
+    "damage": 18.0,
     "ejectsCasing": false,
     "gravity": false,
     "item": "scguns:rocket",
     "life": 55,
     "size": 0.05,
-    "speed": 4.0,
+    "speed": 5.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

@@ -36,9 +36,9 @@
     "gravity": false,
     "item": "scguns:microjet",
     "casingType": "scguns:small_iron_casing",
-    "life": 45,
+    "life": 50,
     "size": 0.05,
-    "speed": 3.0,
+    "speed": 10.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

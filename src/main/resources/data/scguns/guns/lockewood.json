@@ -57,9 +57,9 @@
     "gravity": false,
     "item": "scguns:gibbs_round",
     "casingType": "scguns:medium_diamond_steel_casing",
-    "life": 55,
+    "life": 90,
     "size": 0.05,
-    "speed": 10.5,
+    "speed": 90.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

@@ -34,7 +34,7 @@
     "casingType": "scguns:large_iron_casing",
     "life": 28,
     "size": 0.1,
-    "speed": 2.0,
+    "speed": 5.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

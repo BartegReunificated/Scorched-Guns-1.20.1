@@ -32,7 +32,7 @@
     "ejectsCasing": false,
     "item": "scguns:blaze_fuel",
     "casingType": "scguns:large_iron_casing",
-    "life": 12,
+    "life": 25,
     "size": 0.1,
     "speed": 1.0,
     "trailLengthMultiplier": 2.0

@@ -50,19 +50,19 @@
   },
   "projectile": {
     "advantage": "scguns:heavy",
-    "damage": 24.0,
+    "damage": 25.0,
     "ejectsCasing": true,
     "gravity": false  ,
     "item": "scguns:krahg_round",
     "casingType": "scguns:large_brass_casing",
-    "life": 70,
+    "life": 100,
     "size": 0.1,
-    "speed": 13.0,
+    "speed": 100.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {
     "emptyMagTimer": 10,
-    "maxAmmo": 6  ,
+    "maxAmmo": 15  ,
     "reloadItem": "scguns:krahg_round",
     "reloadTimer": 30,
     "reloadType": "scguns:mag_fed"

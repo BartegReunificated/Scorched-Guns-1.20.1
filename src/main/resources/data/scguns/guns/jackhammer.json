@@ -50,9 +50,9 @@
     "gravity": false,
     "item": "scguns:shotgun_shell",
     "casingType": "scguns:small_copper_casing",
-    "life": 24,
+    "life": 50,
     "size": 0.1,
-    "speed": 4.0,
+    "speed": 10.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

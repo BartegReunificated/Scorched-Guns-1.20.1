@@ -49,9 +49,9 @@
     "ejectsCasing": true,
     "item": "scguns:compact_advanced_round",
     "casingType": "scguns:small_brass_casing",
-    "life": 30,
+    "life": 50,
     "size": 0.1,
-    "speed": 5.0,
+    "speed": 25.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

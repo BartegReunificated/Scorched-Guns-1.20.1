@@ -47,7 +47,7 @@
     "casingType": "scguns:shulker_casing",
     "life": 120,
     "size": 0.00001,
-    "speed":  0.75,
+    "speed":  1.0,
     "trailLengthMultiplier": 100.0
   },
   "reloads": {

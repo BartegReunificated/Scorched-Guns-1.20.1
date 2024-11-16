@@ -55,9 +55,9 @@
     "gravity": false  ,
     "item": "scguns:krahg_round",
     "casingType": "scguns:large_brass_casing",
-    "life": 90,
+    "life": 100,
     "size": 0.1,
-    "speed": 10.0,
+    "speed": 100.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

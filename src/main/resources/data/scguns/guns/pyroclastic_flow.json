@@ -42,9 +42,9 @@
     "gravity": false,
     "item": "scguns:blaze_fuel",
     "casingType": "scguns:large_iron_casing",
-    "life": 45,
+    "life": 50,
     "size": 0.05,
-    "speed": 14.0,
+    "speed": 25.0,
     "trailLengthMultiplier": 2.0
   },
   "reloads": {

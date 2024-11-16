@@ -47,7 +47,7 @@
     "casingType": "scguns:empty_cell",
     "life": 100,
     "size": 2.0,
-    "speed": 11.0,
+    "speed": 15.0,
     "trailLengthMultiplier": 0.5
   },
   "reloads": {
